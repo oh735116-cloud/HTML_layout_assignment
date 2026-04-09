@@ -1,3 +1,92 @@
-h1{
-    color: brown;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: grid;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#high{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: black;
+    color: white;
+    padding: 14px;
+    margin: 0;
+    font-size: 14px;
+}
+.korea{
+    color: aliceblue;
+    font-size: 12px;
+    align-items: center;
+}
+#low{
+    display: flex;
+    justify-content: space-between;
+    background: #ddd8c3;
+    padding: 18px;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+}
+.coffee{
+    font-size: 13px;
+}
+.clu{
+    color: black;
+}
+
+#rost{
+    width: auto;
+    height: auto;
+    background: rgb(78, 78, 78);
+}
+#rost img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+}
+#ark{
+    background: rgb(78, 78, 78);
+    padding: 53px;
+    
+}
+.spacal{
+    font-size: 23px;
+    padding-bottom: 20px;
+    color: white;
+}
+.spacal1{
+    font-size: 10px;
+}
+
+.retail{
+    padding: 14px;
+    background: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    flex-wrap: wraps;
+    margin-bottom: 20px;
+}
+
+#umar{
+
+}
+
+#umar img{
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
 }
